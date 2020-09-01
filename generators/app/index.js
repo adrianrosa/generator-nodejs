@@ -81,6 +81,13 @@ module.exports = class extends Generator {
             this.templatePath('configs/.env.local'),
             this.destinationPath('configs/.env')
         );
+        const envs = ['development', 'staging', 'production'];
+        envs.forEach(env => {
+            this.fs.copyTpl(
+                this.templatePath('configs/.env.local'),
+                this.destinationPath(`configs/.env.${env}`)
+            );
+        });
     }
     createSrcFiles() {
         this.fs.copyTpl(
