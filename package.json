@@ -1,0 +1,13 @@
+{
+  "name": "generator-nodejs",
+  "version": "1.0.0",
+  "description": "Generator Node using Yeoman",
+  "files": [
+    "generators"
+  ],
+  "author": "Adrian Rosa",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^4.11.0"
+  }
+}

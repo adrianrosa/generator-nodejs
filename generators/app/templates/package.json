@@ -1,0 +1,27 @@
+{
+    "name": "<%= name %>",
+    "version": "0.0.1",
+    "description": "<%= description %>",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode development",
+        "build-start": "npm run build && node ./dist/main.js",
+        "linter": "eslint --fix src/",
+        "prettier": "prettier --write src/**/*.js",
+        "start": "node ./src/server.js",
+        "test": "jest --config ./src/tests/test.config.json",
+        "test:watch": "npm run test -- --watch"
+    },
+    "keywords": [
+    ],
+    "author": "",
+    "license": "<%= license %>",
+    "repository": {
+        "type": "git",
+        "url": "<%= repository %>"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
