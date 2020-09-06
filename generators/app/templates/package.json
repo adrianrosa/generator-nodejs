@@ -9,6 +9,7 @@
         "linter": "eslint --fix src/",
         "prettier": "prettier --write src/**/*.js",
         "start": "node ./src/server.js",
+        "start-reload": "nodemon ./src/server.js",
         "test": "jest --config ./src/tests/test.config.json",
         "test:watch": "npm run test -- --watch"
     },

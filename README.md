@@ -14,6 +14,7 @@ This generator creates a <a target="_blank" href="https://nodejs.org/en/">NodeJs
 - <a target="_blank" href="https://www.npmjs.com/package/helmet">Helmet</a>
 - <a target="_blank" href="https://www.npmjs.com/package/jest">Jest</a>
 - <a target="_blank" href="https://www.npmjs.com/package/morgan">Morgan</a>
+- <a target="_blank" href="https://www.npmjs.com/package/nodemon">Nodemon</a>
 - <a target="_blank" href="https://www.npmjs.com/package/prettier">Prettier</a>
 - <a target="_blank" href="https://www.npmjs.com/package/supertest">Supertest</a>
 - <a target="_blank" href="https://www.npmjs.com/package/webpack">Webpack</a>

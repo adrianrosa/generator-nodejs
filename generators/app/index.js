@@ -69,6 +69,7 @@ module.exports = class extends Generator {
             'eslint-plugin-promise',
             'eslint-plugin-standard',
             'jest',
+            'nodemon',
             'prettier',
             'supertest',
             'webpack',
