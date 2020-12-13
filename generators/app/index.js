@@ -54,8 +54,10 @@ module.exports = class extends Generator {
             'cors',
             'dotenv',
             'express',
+            'express-rate-limit',
             'morgan',
             'helmet',
+            'winston',
         ];
         this.npmInstall(dependencies);
         const devDependencies = [
@@ -135,6 +137,13 @@ module.exports = class extends Generator {
         this.fs.copyTpl(
             this.templatePath('util/error/handler.error.js'),
             this.destinationPath('src/utils/error/handler.error.js')
+        );
+        this.fs.copyTpl(
+            this.templatePath('util/log/index.js'),
+            this.destinationPath('src/utils/log/index.js'),
+            {
+                name: this.options.name
+            }
         );
         filesystem.createFolder(`dist/`);
         this.fs.copyTpl(

@@ -3,6 +3,7 @@ const service = require('../services/service.js');
 exports.index = (req, res, next) => {
     try {
         const data = service.getData();
+        logger.info(`Data: ${data}`);
         res.status(200).json({ data: data });
     } catch (e) {
         // This invocation will be handled by the method handlerError in the app.js
