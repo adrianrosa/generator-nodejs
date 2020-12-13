@@ -11,6 +11,7 @@ This generator creates a <a target="_blank" href="https://nodejs.org/en/">NodeJs
 - <a target="_blank" href="https://www.npmjs.com/package/dotenv">Dotenv</a>
 - <a target="_blank" href="https://eslint.org/">Eslint</a>
 - <a target="_blank" href="https://expressjs.com/">Express</a>
+- <a target="_blank" href="https://www.npmjs.com/package/express-rate-limit">Express rate limit</a>
 - <a target="_blank" href="https://www.npmjs.com/package/helmet">Helmet</a>
 - <a target="_blank" href="https://www.npmjs.com/package/jest">Jest</a>
 - <a target="_blank" href="https://www.npmjs.com/package/morgan">Morgan</a>
@@ -18,6 +19,7 @@ This generator creates a <a target="_blank" href="https://nodejs.org/en/">NodeJs
 - <a target="_blank" href="https://www.npmjs.com/package/prettier">Prettier</a>
 - <a target="_blank" href="https://www.npmjs.com/package/supertest">Supertest</a>
 - <a target="_blank" href="https://www.npmjs.com/package/webpack">Webpack</a>
+- <a target="_blank" href="https://www.npmjs.com/package/winston">Winston</a>
 
 Project generated:
 ```
@@ -38,6 +40,11 @@ Project generated:
         ├─── smoke
         ├─── unit
         test.config.json
+    ├─── utils
+        ├─── error
+            custom.error.js
+            handler.error.js
+        ├─── log
     app.js
     routes.js
     server.js
