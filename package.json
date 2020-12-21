@@ -1,6 +1,6 @@
 {
-  "name": "generator-nodejs",
-  "version": "1.0.0",
+  "name": "generator-nodejs-pink",
+  "version": "1.0.2",
   "description": "Generator Node using Yeoman",
   "files": [
     "generators"
