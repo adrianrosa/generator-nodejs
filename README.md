@@ -67,11 +67,11 @@ webpack.config.json
 
 <b>Important: </b>all commands must be executed at root level.
 
-* Create project: `yo nodejs --name=my-project --description="Description project" --repository="https://example.com/path/my-project" --license=ISC`
-* Create a route: `yo nodejs:route verb /path ctrlName fncName [--cE=true]`
-* Create controller: `yo nodejs:controller ctrlName [--f=fncName]`
-* Create service: `yo nodejs:service servName [--f=fncName]`
-* Create model: `yo nodejs:model modName [--f=fncName]`
+* Create project: `yo nodejs-pink --name=my-project --description="Description project" --repository="https://example.com/path/my-project" --license=ISC`
+* Create a route: `yo nodejs-pink:route verb /path ctrlName fncName [--cE=true]`
+* Create controller: `yo nodejs-pink:controller ctrlName [--f=fncName]`
+* Create service: `yo nodejs-pink:service servName [--f=fncName]`
+* Create model: `yo nodejs-pink:model modName [--f=fncName]`
 
 ## Debug
 
