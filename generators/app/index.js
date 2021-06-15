@@ -30,7 +30,7 @@ module.exports = class extends Generator {
             }
         );
         this.fs.copyTpl(
-            this.templatePath('.gitignore'),
+            this.templatePath('gitignore-file'),
             this.destinationPath('.gitignore')
         );
         this.fs.copyTpl(
@@ -167,7 +167,7 @@ module.exports = class extends Generator {
             this.destinationPath('src/tests/integration/integration.spec.js')
         );
         this.fs.copyTpl(
-            this.templatePath('.gitkeep'),
+            this.templatePath('gitkeep-file'),
             this.destinationPath('src/tests/smoke/.gitkeep')
         );
     }

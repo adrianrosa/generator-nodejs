@@ -26,5 +26,8 @@
             "single"
         ]
     },
+    "globals": {
+        "logger": "readonly"
+    },
     "ignorePatterns": ["node_modules/*", "dist/*", "src/tests/*"]
 }
