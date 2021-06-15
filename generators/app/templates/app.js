@@ -1,6 +1,5 @@
 const express = require('express');
 const morgan = require('morgan');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 const dotenv = require('dotenv');
@@ -37,7 +36,7 @@ app.use(rateLimiter({
 }));
 
 // Add body parser
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Add router
 app.use(router);
