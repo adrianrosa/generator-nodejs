@@ -50,7 +50,6 @@ module.exports = class extends Generator {
     }
     installingDependencies() {
         const dependencies = [
-            'body-parser',
             'cors',
             'dotenv',
             'express',

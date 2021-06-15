@@ -6,7 +6,6 @@ It is based on <a href="https://yeoman.io/" target="_blank">Yeoman</a>
 ## Overview
 
 This generator creates a <a target="_blank" href="https://nodejs.org/en/">NodeJs</a> server on port 8080 with:
-- <a target="_blank" href="https://www.npmjs.com/package/body-parser">Body parser</a>
 - <a target="_blank" href="https://www.npmjs.com/package/cors">Cors</a>
 - <a target="_blank" href="https://www.npmjs.com/package/dotenv">Dotenv</a>
 - <a target="_blank" href="https://eslint.org/">Eslint</a>
@@ -56,22 +55,22 @@ webpack.config.json
 
 ## Getting started
 
-1. Install yeoman: `npm install -g yeoman`
-2. Clone the project
+1. Install yeoman: `npm install -g yo`
+2. Clone this project
 3. Download dependencies: `npm install` 
 4. Create a symlink locally for the generator: `npm link`
 5. Create a folder for the project: `mkdir /project-test && cd /project-test`
-6. Run starter command: `yo nodejs`
+6. Run starter command: `yo generator-nodejs-pink`
 
 ## Commands
 
 <b>Important: </b>all commands must be executed at root level.
 
-* Create project: `yo nodejs-pink --name=my-project --description="Description project" --repository="https://example.com/path/my-project" --license=ISC`
-* Create a route: `yo nodejs-pink:route verb /path ctrlName fncName [--cE=true]`
-* Create controller: `yo nodejs-pink:controller ctrlName [--f=fncName]`
-* Create service: `yo nodejs-pink:service servName [--f=fncName]`
-* Create model: `yo nodejs-pink:model modName [--f=fncName]`
+* Create project: `yo generator-nodejs-pink --name=my-project --description="Description project" --repository="https://example.com/path/my-project" --license=ISC`
+* Create a route: `yo generator-nodejs-pink:route verb /path ctrlName fncName [--cE=true]`
+* Create controller: `yo generator-nodejs-pink:controller ctrlName [--f=fncName]`
+* Create service: `yo generator-nodejs-pink:service servName [--f=fncName]`
+* Create model: `yo generator-nodejs-pink:model modName [--f=fncName]`
 
 ## Debug
 
